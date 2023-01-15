@@ -26,10 +26,9 @@ import { AppService } from './app.service';
           transport: Transport.RMQ,
           options: {
             urls: [`amqp://${USER}:${PASSWORD}@${HOST}`],
-            noAck: false,
             queue: QUEUE,
             queueOptions: {
-              durable: true,
+              durable: true, // queue survives broker restart
             },
           },
         });
