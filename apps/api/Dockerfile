@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 
 COPY package*.json .
 
-RUN yarn install 
+RUN yarn install
 
 COPY . .
