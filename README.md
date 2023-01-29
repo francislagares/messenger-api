@@ -29,45 +29,33 @@
 ## Installation
 
 ```bash
-$ npm install
+$ yarn install
 ```
 
 ## Running the app
 
-```bash
-# development
-$ npm run start
 
-# watch mode
-$ npm run start:dev
+## Docker
 
-# production mode
-$ npm run start:prod
-```
+Create and run containers
 
-## Test
+  ```bash
+  $ docker compose up
+  ```
 
-```bash
-# unit tests
-$ npm run test
+Stopping all containers
 
-# e2e tests
-$ npm run test:e2e
+  ```bash
+  $ docker compose stop
+  ```
 
-# test coverage
-$ npm run test:cov
-```
+Remove all containers
 
-## Support
+  ```bash
+  $ docker compose down
+  ```
+# Author
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Created by [@francislagares](https://www.linkedin.com/in/francislagares/) - feel free to contact me!
+* 
